@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f9;
+    color: #333333;
+    line-height: 1.6;
+}
+
+#header {
+    background-color: #1f4e79;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+#header h1 {
+    margin-bottom: 10px;
+}
+
+#menu {
+    background-color: #ffffff;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+#menu h2 {
+    display: none;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+#menu a {
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+#main-content {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#about,
+#courses,
+#course-details,
+#teachers,
+#resources,
+#contacts {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+}
+
+h2 {
+    color: #1f4e79;
+    border-bottom: 2px solid #2f75b5;
+    padding-bottom: 5px;
+}
+
+ul,
+ol {
+    padding-left: 25px;
+}
+
+.course-card {
+    background-color: #f8fafe;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.teacher {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02);
+    border-left: 1px solid #e2e8f0;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    text-align: left;
+}
+
+.teacher img {
+    width: 52px;
+    height: 68px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.teacher h3 {
+    margin: 0 0 4px;
+    font-size: 13px;
+}
+
+.teacher p {
+    margin: 4px 0;
+    font-size: 11px;
+}
+
+#course-details,
+#teachers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#course-details h2,
+#teachers h2 {
+    flex: 0 0 100%;
+}
+
+#teachers h2 {
+    text-align: center;
+}
+
+.course-card,
+.teacher {
+    box-sizing: border-box;
+    flex: 1 1 220px;
+}
+
+a {
+    color: #2f75b5;
+}
+
+a:hover {
+    color: #1f4e79;
+}
+
+#contacts p {
+    margin: 8px 0;
+}
+
+#footer {
+    background-color: #1f4e79;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#footer a {
+    color: white;
+}
